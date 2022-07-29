@@ -1,0 +1,174 @@
+body {
+    background-image: url("../images/interior_design-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 5%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+nav .nav-items {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.phone {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.phone+p {
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: -100px;
+}
+
+.phone-call {
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+
+}
+
+
+.logo-brand {
+    flex: 1;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 80vh;
+}
+
+.col {
+    display: block;
+    flex: 0.5;
+    min-height: 100%;
+}
+
+.col.col-left {
+    margin-left: 40px;
+}
+
+.col.col-left>h3 {
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.col.col-left>button {
+    width: 190px;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #0a0909;
+    border-radius: 25px;
+    border-width: 3px;
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 1000px #e4e1ea;
+}
+
+.puzzle-box {
+    display: block;
+    width: 250px;
+    height: 120px;
+    margin-left: 390px;
+    margin-top: 50px;
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 1000px #e4e1ea;
+
+}
+
+.puzzle {
+    width: 200px;
+    margin-left: -35px;
+}
+
+.puzzle-box>p {
+    margin-top: -50px;
+    width: 250px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.bulb-box {
+    display: block;
+    width: 250px;
+    height: 130px;
+    margin-left: 90px;
+    margin-top: 150px;
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 1000px #e4e1ea;
+
+}
+
+.bulb {
+    width: 120px;
+    margin-left: -25px;
+}
+
+.bulb-box>p {
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 250px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+hr {
+    position: absolute;
+    top: 100px;
+    width: 60%;
+    left: 500px;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.puzzle-box .circle-line {
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #5a7cf6;
+    top: 318px;
+    left: 1220px;
+}
+
+.bulb-box .circle-line {
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #190e5d;
+    right: 370px;
+    transform: rotate(-90deg);
+    top: 490px;
+
+}
+
+.circle-line .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #090808;
+    bottom: 0;
+    left: -8px;
+}
